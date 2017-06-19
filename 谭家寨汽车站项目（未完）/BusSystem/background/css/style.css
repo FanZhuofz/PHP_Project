@@ -1,0 +1,77 @@
+.bg {
+	background: url(../img/bg.gif);
+}
+.main {
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 480px;
+	width: 380px;
+	height: 260px;
+	border: 1px solid #0f0;
+	border-radius:30px;
+	background-color: rgba(51, 138, 146, 0.29);
+}
+.tx {
+	padding: 12px;
+	font-weight: bold;
+	color: #fff;
+	font-size: 15px;
+}
+.tx input {
+	height: 20px;
+	border-radius:5px;
+}
+.btn {
+	margin-right: -120px;
+    text-align:center;
+    border-radius:5px;
+    overflow:hidden;
+    min-width:100px;
+    border:none;
+	color:#FFF;
+	height: 30px;
+	background-color: rgba(0, 23, 255, 0.73);
+}
+.btn:hover {
+	background-color: rgba(61, 255, 0, 0.73);
+}
+
+#navigation {
+			background-color: #000000;
+			font-family: Arial;
+			font-size: 14px;
+			text-align: center;
+		}
+
+#navigation ul {
+	list-style-type: none;	/*不显示项目符号*/
+	margin: 0px;
+	padding: 0px;
+}
+
+#navigation li {
+	border-bottom: 1px solid #9F9FED;	/*添加下划线*/
+	float:left;
+}
+
+#navigation li a {
+	width: 160px;
+	display: block;
+	height: 1.5em;
+	padding: 5px 5px 5px 0.5em;
+	text-decoration: none;
+}
+
+#navigation li a:link, #navigation li a:visited{
+	background-color: #1136c1;
+	color:#fff;
+}
+
+#navigation li a:hover {			/* 鼠标经过时 */
+	background-color: #002099;		/* 改变背景色 */
+	color: #ff0;					/* 改变字体颜色 */
+}
+
+.do_text:hover {
+	color: red;
+}
